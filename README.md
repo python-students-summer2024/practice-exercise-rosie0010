@@ -1,5 +1,4 @@
 # Python Project Practice Run
-hkhhihhuihoiuj
 Welcome to your first Python programming assignment.
 
 ## The goal
