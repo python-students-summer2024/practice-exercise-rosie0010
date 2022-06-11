@@ -141,7 +141,7 @@ We will verify that the test programs we have written now all pass. Failed tests
 - The test results will appear in the bottom status bar of Visual Studio Code - a check mark next to a number, if all tests pass; or possibly an X icon if some or all tests fail.
 - If the tests fail, it is likely that something is wrong in the code you modified - verify the code is correct and try again.
 
-If the tests do not appear, or seem to never stop loading, open up a Terminal window and run the command, `pytest --collect-only`, to see whether there are any errors in the code that prevent the tests from being discovered.
+If the tests do not appear, or seem to never stop loading, open up a Terminal window and run the command, `pytest --collect-only`, to see whether there are any errors in the code that prevent the tests from being discovered. If there are no errors reported from that command, try running the tests directly from the Terminal with the command, `pytest`.
 
 ### Run the program
 
