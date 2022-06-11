@@ -1,4 +1,5 @@
 # Python Project Practice Run
+
 Welcome to your first Python programming assignment.
 
 ## The goal
@@ -39,7 +40,7 @@ Our code editor of choice is [Visual Studio Code](https://code.visualstudio.com)
 
 You will notice that this code repository already contains several files and directories.
 
-- **example1.py** - you will write Python code in this file in order to complete the given assignment.
+- **main.py** - you will write Python code in this file in order to complete the given assignment.
 - **README.md** - this file contains instructions written in a relatively easy-to-read formatting notation called Markdown.
 - **.gitignore** - a 'hidden' file that instructs the git software not to include certain files when sharing your code with others. This helps you only share the important files. Do not touch this file!
 - **requirements.txt** - contains a list of dependencies for this project. Dependencies are any code files written by other people that your code will depend upon in order to run properly. It is common for even simple projects to have many dependencies so developers don't waste time "reinventing the wheel". Do not touch this file!
@@ -79,7 +80,7 @@ We will now download this code from GitHub.com into Visual Studio Code on your o
 ### Configure the Python interpreter
 
 - Click on the Explorer icon in Visual Studio Code's left tool bar (the icon that looks like two pieces of paper) - this shows the files in the project.
-- Click on the file named `example1`.py`.
+- Click on the file named `main.py`.
 - Now click on the Run icon in the tool bar (the icon with a play button with a bug next to it) - this is where you can run the code
 - Click the link to "Create a launch.json file". A list of configuration options will appear... click "Python file".
 - Make sure the Run icon is still selected. You will see a green play button at the top left that will run the program... click it.
@@ -98,7 +99,7 @@ A code linter helps identify code that is written incorrectly or in a bad style.
 
 In the sample assignment, we have included code that will tell you whether the code in the project is running correctly. Set up the testing framework in Visual Studio Code:
 
-- Make sure the file named `example1.py` is still open in the editor. Open it in the Explorer view accessed from the Visual Code tool bar, if not.
+- Make sure the file named `main.py` is still open in the editor. Open it in the Explorer view accessed from the Visual Code tool bar, if not.
 - In the main menus, click the View -> Command Palette menu option and type, "Python:Configure Tests". Click this command in the list of matching commands that appears.
 - In the list of testing options that appears, click "pytest".
 - A list of directory options will appear... click "tests" - this indicates to Visual Studio code in which directory to find some tests we have prepared to see whether the example code works correctly.
@@ -118,7 +119,7 @@ You have now completed the setup and are ready to modify the code, as you will i
 
 You will now add a few line of Python code to the sample program.
 
-- In Visual Studio Code's Explorer view, open the file named `example1.py`.
+- In Visual Studio Code's Explorer view, open the file named `main.py`.
 - At the very end of the file, write the following new lines of code... try writing them yourself, not copy-and-pasting.
 - Save the file.
 
