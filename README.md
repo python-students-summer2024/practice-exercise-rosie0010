@@ -82,7 +82,7 @@ We will now download this code from GitHub.com into Visual Studio Code on your o
 - Click on the Explorer icon in Visual Studio Code's left tool bar (the icon that looks like two pieces of paper) - this shows the files in the project.
 - Click on the file named `main.py`.
 - Now click on the Run icon in the tool bar (the icon with a play button with a bug next to it) - this is where you can run the code
-- Click the link to "Create a `launch.json file`". A list of configuration options will appear... click "Python file".  Immediately close the `launch.json` file that is automatically created and opened - we do not need to modify it or look at it.
+- Click the link to "Create a `launch.json file`". A list of configuration options will appear... click "Python file". Immediately close the `launch.json` file that is automatically created and opened - we do not need to modify it or look at it.
 - Make sure the Run icon is still selected. You will see a green play button at the top left that will run the program... click it.
 - In the list of Python interpreters, select any version `3.x` interpreter.
 - Click the Run icon at the top-left of the window again. This time it should run... nothing especially interesting will happen, but you should not see an error.
@@ -96,7 +96,7 @@ A code linter helps identify code that is syntactically incorrectly or written i
 - Search extensions for the keyword, '`pylint`'.
 - One of the top results will be the extension simply named "Pylint" by Microsoft. Install it!
 
-When you open any Python file in the editor, the linter will now highlight any code it deems incorrect in the editor window.  Note that these are only suggestions and not all suggestions must be followed.  IIn this case, follow the suggestions except do not change any of the names of things in the code that the linter may consider unconventional, i.e. the names `foo`, `bar`, and `baz`, as these have been given to you intentionally and must not be modified.
+When you open any Python file in the editor, the linter will now highlight any code it deems incorrect in the editor window. Note that these are only suggestions and not all suggestions must be followed. IIn this case, follow the suggestions except do not change any of the names of things in the code that the linter may consider unconventional, i.e. the names `foo`, `bar`, and `baz`, as these have been given to you intentionally and must not be modified.
 
 ### Set up the testing framework
 
@@ -164,3 +164,12 @@ Hello world!
 Hello world!
 Hello world!
 ```
+
+## Submit your work
+
+Each student must submit this assignment individually. Use Visual Studio Code to perform git `stage`, `commit` and `push` actions to submit. These actions are all available as menu items in Visual Studio Code's Source Control panel.
+
+1. Type a short note about what you have done to the files in the `Message` area, and then type `Command-Enter` (Mac) or `Control-Enter` (Windows) to perform git `stage` and `commit` actions.
+1. Click the `...` icon next to the words, "Source Control" and select "Push" to perform the git `push` action. This will upload your work to your repository on GitHub.com.
+
+![Pushing work in Visual Studio Code](./images/vscode_stage_commit_push.png)
