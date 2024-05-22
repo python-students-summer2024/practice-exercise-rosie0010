@@ -62,7 +62,7 @@ Install the Python extension for Visual Studio Code:
 
 - Open Visual Studio Code
 - Click the Extensions icon in the left bar (the icon that looks like building blocks).
-- Search extensions for the keyword, 'python'.
+- Search extensions for the keyword, '`python`'.
 - One of the top results will be the extension simply named "Python" by Microsoft. Install it!
 
 ### Clone this code to your local computer
@@ -82,27 +82,30 @@ We will now download this code from GitHub.com into Visual Studio Code on your o
 - Click on the Explorer icon in Visual Studio Code's left tool bar (the icon that looks like two pieces of paper) - this shows the files in the project.
 - Click on the file named `main.py`.
 - Now click on the Run icon in the tool bar (the icon with a play button with a bug next to it) - this is where you can run the code
-- Click the link to "Create a launch.json file". A list of configuration options will appear... click "Python file".
+- Click the link to "Create a `launch.json file`". A list of configuration options will appear... click "Python file".  Immediately close the `launch.json` file that is automatically created and opened - we do not need to modify it or look at it.
 - Make sure the Run icon is still selected. You will see a green play button at the top left that will run the program... click it.
-- A warning will appear in the bottom-right of the window that you need to select a Python interpreter... Click the button to do so.
-- In the list of Python interpreters, select the version 3.x that has "conda" or "anaconda" in the name - this is the same Anaconda interpreter you installed earlier.
+- In the list of Python interpreters, select any version `3.x` interpreter.
 - Click the Run icon at the top-left of the window again. This time it should run... nothing especially interesting will happen, but you should not see an error.
 
-### Configure the code linter
+### Install the code linter
 
-A code linter helps identify code that is written incorrectly or in a bad style. Set up a code linter for Python programming in Visual Studio Code:
+A code linter helps identify code that is syntactically incorrectly or written in a non-conventional style. Set up a code linter for Python programming in Visual Studio Code:
 
-- In the main menus, click the View -> Command Palette menu option and type, "Python:Select Linter". Click this command in the list of matching commands that appears.
-- In the list of code linter options, select "pylint".
+- Open Visual Studio Code
+- Click the Extensions icon in the left bar (the icon that looks like building blocks).
+- Search extensions for the keyword, '`pylint`'.
+- One of the top results will be the extension simply named "Pylint" by Microsoft. Install it!
+
+When you open any Python file in the editor, the linter will now highlight any code it deems incorrect in the editor window.  Note that these are only suggestions and not all suggestions must be followed.  IIn this case, follow the suggestions except do not change any of the names of things in the code that the linter may consider unconventional, i.e. the names `foo`, `bar`, and `baz`, as these have been given to you intentionally and must not be modified.
 
 ### Set up the testing framework
 
 In the sample assignment, we have included code that will tell you whether the code in the project is running correctly. Set up the testing framework in Visual Studio Code:
 
 - Make sure the file named `main.py` is still open in the editor. Open it in the Explorer view accessed from the Visual Code tool bar, if not.
-- In the main menus, click the View -> Command Palette menu option and type, "Python:Configure Tests". Click this command in the list of matching commands that appears.
+- In the main menus, click the View -> Command Palette menu option and type, "`Python:Configure Tests`". Click this command in the list of matching commands that appears.
 - In the list of testing options that appears, click "pytest".
-- A list of directory options will appear... click "tests" - this indicates to Visual Studio code in which directory to find some tests we have prepared to see whether the example code works correctly.
+- A list of directory options will appear... click "`tests`" - this indicates to Visual Studio code in which directory to find some tests we have prepared to see whether the example code works correctly.
 - Now click on the Test icon in Visual Studio Code's left tool bar.
 - After a few seconds, a green play button will appear towards the top-left of the window. Click it to run the tests.
 - If the tests pass, you will not notice anything happen... no error and no change is good! Everything works!
