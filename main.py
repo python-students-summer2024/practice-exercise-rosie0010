@@ -21,3 +21,11 @@ def baz():
     Prints out the text, "Hello world!"
     """
     print("Hello world!")
+
+
+def main():
+    print( foo("Hello", "world!") )
+    print( bar() )
+    baz()
+
+main()
